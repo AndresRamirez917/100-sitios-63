@@ -38,6 +38,20 @@ img {
   max-width: 100%;
 }
 
+::-moz-placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
