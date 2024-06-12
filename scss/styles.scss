@@ -29,7 +29,6 @@ ul {
 
 .flex {
     display: flex;
-    flex: 1;
     gap: 50px;
 }
 
@@ -57,11 +56,13 @@ img {
          font-size: 2rem;
         }
         .container {
+            display: flex;
         justify-content: space-between;
 	    align-items: center;
 	    height: 100%;
         }
         ul {
+            display: flex;
             margin-top: 1rem;
             li {
                 display: inline-block;
@@ -73,27 +74,32 @@ img {
 
 //showcase
 #showcase {
-  position: relative;
     background: url("/images/showcase.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    // height: 100vh; ojo con el uso de esta propiedad
     margin-bottom: 5rem;
+
     .showcase-text {
-display: block;
-margin: 0 auto;
+        display: block;
+        font-size: 2rem;
         text-align: center;
         background: #fff;
-margin-top: 450px;
-padding-bottom: 200px;
+        margin-top: 450px;
+        padding-top: 5rem;
+        padding-bottom: 50px;
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
     }
 }
 
 //job
 #job {
     .container {
-        margin-top: 3rem;
+        margin-top: 10rem;
         text-align: center;
         .job-row {
             gap: 100px;
@@ -134,9 +140,10 @@ padding-bottom: 200px;
     h2 {
         text-align: center;
         margin: 3rem 0;
+        text-transform: uppercase;
     }
         form {
-            width: 60%;
+            width: 90%;
             margin: 0 auto;
             margin-bottom: 2rem;
             .flex {

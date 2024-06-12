@@ -26,7 +26,6 @@ ul {
 
 .flex {
   display: flex;
-  flex: 1;
   gap: 50px;
 }
 
@@ -51,11 +50,13 @@ img {
   font-size: 2rem;
 }
 #mainheader .navbar .container {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 #mainheader .navbar ul {
+  display: flex;
   margin-top: 1rem;
 }
 #mainheader .navbar ul li {
@@ -64,25 +65,28 @@ img {
 }
 
 #showcase {
-  position: relative;
   background: url("/images/showcase.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   margin-bottom: 5rem;
 }
 #showcase .showcase-text {
   display: block;
-  margin: 0 auto;
+  font-size: 2rem;
   text-align: center;
   background: #fff;
   margin-top: 450px;
-  padding-bottom: 200px;
+  padding-top: 5rem;
+  padding-bottom: 50px;
+}
+#showcase .showcase-text h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 #job .container {
-  margin-top: 3rem;
+  margin-top: 10rem;
   text-align: center;
 }
 #job .container .job-row {
@@ -113,9 +117,10 @@ img {
 #contact h2 {
   text-align: center;
   margin: 3rem 0;
+  text-transform: uppercase;
 }
 #contact form {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
