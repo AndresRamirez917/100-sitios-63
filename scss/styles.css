@@ -27,26 +27,12 @@ ul {
 .flex {
   display: flex;
   flex: 1;
+  gap: 50px;
 }
 
 .main-width {
   width: 80%;
   margin: 0 auto;
-}
-
-form .form-group {
-  margin-bottom: 1rem;
-}
-form .form-control {
-  display: inline-block;
-  width: 100%;
-  padding: 1rem;
-  border-radius: 5px;
-}
-form .button {
-  width: 100%;
-  color: #fff;
-  background: #000;
 }
 
 img {
@@ -107,6 +93,52 @@ img {
 }
 #job .container .job-row .box .box.text {
   text-align: center;
+}
+
+#about {
+  margin: 10rem 0;
+}
+#about .about-row img {
+  width: 50%;
+}
+#about .about-row .about-text h3 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+#about .about-row .about-text p {
+  line-height: 30px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin: 3rem 0;
+}
+#contact h2 form {
+  width: 60%;
+  margin: 0 auto;
+}
+#contact h2 form .flex {
+  display: flex;
+}
+#contact h2 form .flex-box-1 {
+  flex: 1;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  color: #000;
+}
+form button {
+  width: 100%;
+  padding: 10px 20px;
+  background: #5a0c0c;
+  color: #fff;
 }
 
 #footer {
