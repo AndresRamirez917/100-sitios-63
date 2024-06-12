@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack:"Montserrat", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #474747;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+}
+
+.main-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        display: inline-block;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    .button {
+        width: 100%;
+        color: #fff;
+        background: #000;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+//mainheader
+#mainheader {
+    .navbar {  
+        .logo {
+         margin-top: 1rem;   
+         font-size: 2rem;
+        }
+        .container {
+        justify-content: space-between;
+	    align-items: center;
+	    height: 100%;
+        }
+        ul {
+            margin-top: 1rem;
+            li {
+                display: inline-block;
+                margin-left: 1rem; 
+            }
+           
+           
+        }
+        
+    }
+    
+}
+
+//showcase
+#showcase {
+  position: relative;
+    background: url("/images/showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 5rem;
+    .showcase-text {
+display: block;
+margin: 0 auto;
+        text-align: center;
+        background: #fff;
+margin-top: 450px;
+
+padding-bottom: 200px;
+    }
+}
+
+//job
+#job {
+
+    .container {
+        margin-top: 3rem;
+        text-align: center;
+
+        .job-row {
+            gap: 100px;
+ 
+            .box {
+                margin-bottom: 3rem;
+                .box.text {
+                    text-align: center;
+                }
+            }
+           
+        }
+     
+    }
+}
+
+//footer
+#footer {
+    padding: 3rem 0;
+    text-align: center;
+    background: rgb(237, 188, 237);
+}
