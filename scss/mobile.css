@@ -30,6 +30,7 @@
 }
 #about .about-row p {
   text-align: justify;
+  margin-bottom: 1rem;
 }
 #about .about-row img {
   width: 100%;
