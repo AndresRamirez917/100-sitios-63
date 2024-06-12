@@ -66,13 +66,9 @@ img {
             li {
                 display: inline-block;
                 margin-left: 1rem; 
-            }
-           
-           
-        }
-        
-    }
-    
+            }     
+        }  
+    }  
 }
 
 //showcase
@@ -90,7 +86,6 @@ margin: 0 auto;
         text-align: center;
         background: #fff;
 margin-top: 450px;
-
 padding-bottom: 200px;
     }
 }
@@ -100,7 +95,6 @@ padding-bottom: 200px;
     .container {
         margin-top: 3rem;
         text-align: center;
-
         .job-row {
             gap: 100px;
  
@@ -140,17 +134,20 @@ padding-bottom: 200px;
     h2 {
         text-align: center;
         margin: 3rem 0;
+    }
         form {
             width: 60%;
             margin: 0 auto;
+            margin-bottom: 2rem;
             .flex {
                 display: flex;
+                gap: 20px;
             }
             .flex-box-1 {
                 flex: 1;
             }
            } 
-    }
+    
 }
 
 form { 

@@ -114,14 +114,16 @@ img {
   text-align: center;
   margin: 3rem 0;
 }
-#contact h2 form {
+#contact form {
   width: 60%;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
-#contact h2 form .flex {
+#contact form .flex {
   display: flex;
+  gap: 20px;
 }
-#contact h2 form .flex-box-1 {
+#contact form .flex-box-1 {
   flex: 1;
 }
 
